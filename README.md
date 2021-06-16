@@ -8,4 +8,33 @@ You can find sample application under the example_app folder.
 
 At it's simplest, just register your command with a function that takes a parameter vector and start the `Main_Loop`. 
 
+```
+Ada_Cmd.Register_Command
+     (Command_String => "test1", Command_Cb => Test_Procs.Test1'Access,
+      Description    => "Just a test");
+
+Ada_Cmd.Main_Loop;
+```
+
+will look as a session of something like this
+
+```
+> ?
+
+Commands:
+
+?                            Help
+quit                         Exit
+
+test1                        Just a test
+
+
+> test1 one two three
+Just a test
+I got called with: 
+one two three 
+> 
+```
+
+
 The help and exiting command strings can be customized, also the prompt and the help preamble text.

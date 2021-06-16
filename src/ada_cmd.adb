@@ -65,7 +65,7 @@ package body Ada_Cmd is
    begin
       Master_Loop :
       loop
-
+         New_Line;
          Put (To_String (Prompt));
          declare
             Input   : constant String := Get_Line;
