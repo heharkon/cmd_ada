@@ -1,0 +1,7 @@
+name = "ada_cmd"
+description = "Shiny new project"
+version = "0.0.0"
+
+authors = ["Henrik Harkonen"]
+maintainers = ["Henrik Harkonen <heharkon@iki.fi>"]
+maintainers-logins = ["heharkon"]

@@ -1,0 +1,12 @@
+name = "example_app"
+description = "Shiny new project"
+version = "0.0.0"
+
+authors = ["Henrik Harkonen"]
+maintainers = ["Henrik Harkonen <heharkon@iki.fi>"]
+maintainers-logins = ["heharkon"]
+
+executables = ["example_app"]
+
+[[depends-on]]  # This line was added by `alr with`
+ada_cmd = "~0.0.0"  # This line was added by `alr with`
