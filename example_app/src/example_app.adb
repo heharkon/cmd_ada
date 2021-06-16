@@ -14,6 +14,7 @@ begin
    Ada_Cmd.Set_Exit_Command ("exit");
    Ada_Cmd.Set_Help_Command ("help");
    Ada_Cmd.Set_Prompt (">> ");
+   Ada_Cmd.Set_Help_Preamble ("Those commands are...");
 
    Ada_Cmd.Main_Loop;
 

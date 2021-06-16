@@ -47,6 +47,15 @@ package body Ada_Cmd is
       Prompt := To_Unbounded_String (Prompt_Str);
    end Set_Prompt;
 
+   -----------------------
+   -- Set_Help_Preamble --
+   -----------------------
+
+   procedure Set_Help_Preamble (Preamble_Str : String) is
+   begin
+      Help_Preamble := To_Unbounded_String (Preamble_Str);
+   end Set_Help_Preamble;
+
    ---------------
    -- Main_Loop --
    ---------------
@@ -111,8 +120,7 @@ package body Ada_Cmd is
    begin
       New_Line;
 
-      Put_Line ("Commands:");
-      New_Line;
+      Put_Line (To_String (Help_Preamble));
       New_Line;
 
       Put (To_String (Help_Command));

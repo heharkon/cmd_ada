@@ -18,6 +18,8 @@ package Ada_Cmd is
 
    procedure Set_Prompt (Prompt_Str : String);
 
+   procedure Set_Help_Preamble (Preamble_Str : String);
+
    procedure Main_Loop;
 
 private
@@ -36,6 +38,7 @@ private
    Exit_Command : Unbounded_String := To_Unbounded_String ("quit");
    Help_Command : Unbounded_String := To_Unbounded_String ("?");
    Prompt       : Unbounded_String := To_Unbounded_String ("> ");
+   Help_Preamble : Unbounded_String := To_Unbounded_String ("Commands:");
 
    procedure Print_Help;
 
