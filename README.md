@@ -16,6 +16,9 @@ Ada_Cmd.Register_Command
 Ada_Cmd.Main_Loop;
 ```
 
+where `Test1` procedure is defined as `procedure Test1 (Params : Ada_Cmd.Cb_Parameters.Vector);`
+
+
 will look as a session of something like this
 
 ```
