@@ -1,7 +1,7 @@
 name = "ada_cmd"
-description = "Shiny new project"
-version = "0.0.0"
+description = "Command based text UI, inspired by Python cmd module"
+version = "0.0.1"
 
-authors = ["Henrik Harkonen"]
-maintainers = ["Henrik Harkonen <heharkon@iki.fi>"]
+authors = ["Henrik Härkönen"]
+maintainers = ["Henrik Härkönen <heharkon@iki.fi>"]
 maintainers-logins = ["heharkon"]
