@@ -6,4 +6,4 @@ authors = ["Henrik Härkönen"]
 maintainers = ["Henrik Härkönen <heharkon@iki.fi>"]
 maintainers-logins = ["heharkon"]
 tags = ["ui"]
-licenses = "APL-2.0"
+licenses = "Apache-2.0"
