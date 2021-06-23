@@ -1,9 +1,9 @@
-name = "ada_cmd"
+name = "cmd_ada"
 description = "Command based text UI, inspired by Python cmd module"
 version = "0.0.1"
 
 authors = ["Henrik Härkönen"]
 maintainers = ["Henrik Härkönen <heharkon@iki.fi>"]
 maintainers-logins = ["heharkon"]
-tags = ["ui"]
+tags = ["ui", "command-line"]
 licenses = "Apache-2.0"

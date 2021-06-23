@@ -4,12 +4,12 @@
 [solution.context]
 solved = true
 [[solution.state]]
-crate = "ada_cmd"
+crate = "cmd_ada"
 fulfilment = "linked"
 pinned = false
 transitivity = "direct"
-versions = "~0.0.0"
+versions = "~0.0.1"
 [solution.state.link]
 kind = "softlink"
-path = "file:C:\\Users\\hehar\\dev\\ada_cmd"
+path = "file:/home/henrik/ada/ada_cmd"
 

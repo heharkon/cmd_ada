@@ -1,6 +1,6 @@
-# Ada_Cmd
+# Cmd_ada
 
-Ada_Cmd is a simple command shell UI package for Ada applications, inspired by the Python `cmd` module. It is kind of the simplest interactive form of UI one can imagine. Currently, this package is much, much more simpler in it's functionalities, compared to the Python counterpart.
+Cmd_ada is a simple command shell UI package for Ada applications, inspired by the Python `cmd` module. It is kind of the simplest interactive form of UI one can imagine. Currently, this package is much, much more simpler in it's functionalities, compared to the Python counterpart.
 
 ## Usage
 

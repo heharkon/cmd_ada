@@ -8,5 +8,6 @@ maintainers-logins = ["heharkon"]
 
 executables = ["example_app"]
 
+
 [[depends-on]]  # This line was added by `alr with`
-ada_cmd = "~0.0.0"  # This line was added by `alr with`
+cmd_ada = "~0.0.1"  # This line was added by `alr with`

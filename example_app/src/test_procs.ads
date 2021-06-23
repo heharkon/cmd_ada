@@ -1,6 +1,6 @@
-with Ada_Cmd;
+with Cmd_ada;
 package Test_Procs is
 
-   procedure Test1 (Params : Ada_Cmd.Cb_Parameters.Vector);
+   procedure Test1 (Params : Cmd_ada.Cb_Parameters.Vector);
 
 end Test_Procs;

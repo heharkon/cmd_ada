@@ -1,7 +1,7 @@
 with Ada.Containers;        use Ada.Containers;
 with Ada.Containers.Vectors;
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
-package Ada_Cmd is
+package Cmd_ada is
 
    package Cb_Parameters is new Ada.Containers.Vectors
      (Index_Type => Natural, Element_Type => Unbounded_String);
@@ -42,4 +42,4 @@ private
 
    procedure Print_Help;
 
-end Ada_Cmd;
+end Cmd_ada;

@@ -3,7 +3,7 @@ with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 
 package body Test_Procs is
 
-   procedure Test1 (Params : Ada_Cmd.Cb_Parameters.Vector) is
+   procedure Test1 (Params : Cmd_ada.Cb_Parameters.Vector) is
    begin
       Put_Line ("I got called with: ");
       for P of Params loop

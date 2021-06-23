@@ -2,7 +2,7 @@ pragma Ada_2012;
 with Ada.Text_IO; use Ada.Text_IO;
 with GNAT.OS_Lib; use GNAT.OS_Lib;
 
-package body Ada_Cmd is
+package body Cmd_ada is
 
    ----------------------
    -- Register_Command --
@@ -144,4 +144,4 @@ package body Ada_Cmd is
       New_Line;
    end Print_Help;
 
-end Ada_Cmd;
+end Cmd_ada;

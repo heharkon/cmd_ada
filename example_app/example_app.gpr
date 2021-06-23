@@ -1,6 +1,6 @@
 -- begin auto-gpr-with --
 --  This section was automatically added by Alire
-with "ada_cmd.gpr";
+with "cmd_ada.gpr";
 -- end auto-gpr-with --
 project Example_App is
 
