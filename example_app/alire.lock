@@ -11,5 +11,5 @@ transitivity = "direct"
 versions = "~0.0.1"
 [solution.state.link]
 kind = "softlink"
-path = "file:/home/henrik/ada/ada_cmd"
+path = "file:/home/henrik/ada/cmd_ada"
 
